@@ -10,7 +10,7 @@ Click on one of the buttons below to add the corresponding repository/repositori
 
 <a href="https://intradeus.github.io/http-protocol-redirector?r=mangayomi://add-repo?repo_name=mangayomi-extensions%26repo_url=https://github.com/entityJY/mangayomi-extensions-eJ%26manga_url=https://raw.githubusercontent.com/entityJY/mangayomi-extensions-eJ/refs/heads/main/index.json"><img alt="Add manga repository" src="images/add-manga-repository.png" height="35"></a>
 
-<!-- <a href="https://intradeus.github.io/http-protocol-redirector?r=mangayomi://add-repo?repo_name=mangayomi-extensions%26repo_url=https://github.com/entityJY/mangayomi-extensions-eJ%26anime_url=https://kodjodevf.github.io/mangayomi-extensions/anime_index.json"><img alt="Add anime repository" src="images/add-anime-repository.png" height="35"></a> -->
+<a href="https://intradeus.github.io/http-protocol-redirector?r=mangayomi://add-repo?repo_name=mangayomi-extensions%26repo_url=https://github.com/entityJY/mangayomi-extensions-eJ%26anime_url=https://kodjodevf.github.io/mangayomi-extensions/anime_index.json"><img alt="Add anime repository" src="images/add-anime-repository.png" height="35"></a>
 
 <a href="https://intradeus.github.io/http-protocol-redirector?r=mangayomi://add-repo?repo_name=mangayomi-extensions%26repo_url=https://github.com/entityJY/mangayomi-extensions-eJ%26novel_url=https://raw.githubusercontent.com/entityJY/mangayomi-extensions-eJ/refs/heads/main/novel_index.json"><img alt="Add novel repository" src="images/add-novel-repository.png" height="35"></a>
 
@@ -20,7 +20,7 @@ If you installed the app via Live Container, then use the following buttons inst
 
 <a href="https://intradeus.github.io/http-protocol-redirector?r=livecontainer://open-url?url=bWFuZ2F5b21pOi8vYWRkLXJlcG8/cmVwb19uYW1lPW1hbmdheW9taS1leHRlbnNpb25zJnJlcG9fdXJsPWh0dHBzOi8vZ2l0aHViLmNvbS9lbnRpdHlKWS9tYW5nYXlvbWktZXh0ZW5zaW9ucy1lSiZtYW5nYV91cmw9aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2VudGl0eUpZL21hbmdheW9taS1leHRlbnNpb25zLWVKL3JlZnMvaGVhZHMvbWFpbi9pbmRleC5qc29u"><img alt="Add manga repository" src="images/add-manga-repository-livecontainer.png" height="35"></a>
 
-<!-- <a href="https://intradeus.github.io/http-protocol-redirector?r=livecontainer://open-url?url=bWFuZ2F5b21pOi8vYWRkLXJlcG8/cmVwb19uYW1lPW1hbmdheW9taS1leHRlbnNpb25zJnJlcG9fdXJsPWh0dHBzOi8vZ2l0aHViLmNvbS9rb2Rqb2RldmYvbWFuZ2F5b21pLWV4dGVuc2lvbnMmYW5pbWVfdXJsPWh0dHBzOi8va29kam9kZXZmLmdpdGh1Yi5pby9tYW5nYXlvbWktZXh0ZW5zaW9ucy9hbmltZV9pbmRleC5qc29u"><img alt="Add anime repository" src="images/add-anime-repository-livecontainer.png" height="35"></a> -->
+<a href="https://intradeus.github.io/http-protocol-redirector?r=livecontainer://open-url?url=bWFuZ2F5b21pOi8vYWRkLXJlcG8/cmVwb19uYW1lPW1hbmdheW9taS1leHRlbnNpb25zJnJlcG9fdXJsPWh0dHBzOi8vZ2l0aHViLmNvbS9rb2Rqb2RldmYvbWFuZ2F5b21pLWV4dGVuc2lvbnMmYW5pbWVfdXJsPWh0dHBzOi8va29kam9kZXZmLmdpdGh1Yi5pby9tYW5nYXlvbWktZXh0ZW5zaW9ucy9hbmltZV9pbmRleC5qc29u"><img alt="Add anime repository" src="images/add-anime-repository-livecontainer.png" height="35"></a>
 
 <a href="https://intradeus.github.io/http-protocol-redirector?r=livecontainer://open-url?url=bWFuZ2F5b21pOi8vYWRkLXJlcG8/cmVwb19uYW1lPW1hbmdheW9taS1leHRlbnNpb25zJnJlcG9fdXJsPWh0dHBzOi8vZ2l0aHViLmNvbS9lbnRpdHlKWS9tYW5nYXlvbWktZXh0ZW5zaW9ucy1lSiZub3ZlbF91cmw9aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2VudGl0eUpZL21hbmdheW9taS1leHRlbnNpb25zLWVKL3JlZnMvaGVhZHMvbWFpbi9ub3ZlbF9pbmRleC5qc29u"><img alt="Add novel repository" src="images/add-novel-repository-livecontainer.png" height="35"></a>
 
