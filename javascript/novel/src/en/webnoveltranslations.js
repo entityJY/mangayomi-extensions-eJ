@@ -18,9 +18,7 @@ const mangayomiSources = [{
 class DefaultExtension extends MProvider {
   
     mangaListFromPage(res) {
-        /**
-         * @type Doc
-         */
+        /** @type {Doc} */
         const doc = new Document(res.body);
         const mangaElements = doc.select(".row.c-tabs-item__content");
         const list = [];
@@ -72,9 +70,7 @@ class DefaultExtension extends MProvider {
     async getDetail(url) {
         const client = new Client();
         const res = await client.get(url, this.headers);
-        /**
-         * @type Doc
-         */
+        /** @type {Doc} */
         const doc = new Document(res.body);
         const main = doc.selectFirst('.site-content');
         
@@ -101,9 +97,7 @@ class DefaultExtension extends MProvider {
         
         
         const chapterRes = await client.post(url + "ajax/chapters/?t=1", {"x-requested-with": "XMLHttpRequest"});
-        /**
-         * @type Doc
-         */
+        /** @type {Doc} */
         const chapterDoc = new Document(chapterRes.body);
         
         let chapters = [];
@@ -137,9 +131,7 @@ class DefaultExtension extends MProvider {
     }
     // Clean html up for reader
     async cleanHtmlContent(html) {
-        /**
-         * @type Doc
-         */
+        /** @type {Doc} */
         const doc = new Document(html);
         const title = doc.selectFirst("#chapter-heading")?.text.trim() || "";
         

@@ -28,9 +28,7 @@ class DefaultExtension extends MProvider {
     }
 
     popularMangaListFromHome(res) {
-        /**
-         * @type {Doc}
-         */
+        /** @type {Doc} */
         const doc = new Document(res.body);
         const elements = doc.selectFirst("div.mt-4.row.row-cols-3.row-cols-md-4.row-cols-lg-8.g-0.home-popular").select("div");
         const list = [];
@@ -47,9 +45,7 @@ class DefaultExtension extends MProvider {
     }
     
     latestMangaListFromHome(res) {
-        /**
-         * @type {Doc}
-         */
+        /** @type {Doc} */
         const doc = new Document(res.body);
         const elements = doc.selectFirst("div.mt-0.row.row-cols-1.row-cols-sm-2.row-cols-lg-3.series-list").select("div");
         const list = [];
@@ -66,9 +62,7 @@ class DefaultExtension extends MProvider {
     }
 
     mangaFromSearch(res) {
-        /**
-         * @type {Doc}
-         */
+        /** @type {Doc} */
         const doc = new Document(res.body);
         const elements = doc.selectFirst("div#series-list").select("div");
         const list = [];
@@ -178,9 +172,7 @@ class DefaultExtension extends MProvider {
 
     async getDetail(url) {
         const res = await new Client().get(url, this.getHeaders());
-        /**
-         * @type {Doc}
-         */
+        /** @type {Doc} */
         const doc = new Document(res.body);
         const detail = {};
 
@@ -219,9 +211,7 @@ class DefaultExtension extends MProvider {
 
     async getPageList(url) {
         const res = await new Client().get(url, this.getHeaders());
-        /**
-         * @type {Doc}
-         */
+        /** @type {Doc} */
         const doc = new Document(res.body);
         
         let pages = [];
