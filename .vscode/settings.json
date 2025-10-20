@@ -15,5 +15,6 @@
     ],
     "cSpell.words": [
         "Unrealeased"
-    ]
+    ],
+    "editor.detectIndentation": false
 }
