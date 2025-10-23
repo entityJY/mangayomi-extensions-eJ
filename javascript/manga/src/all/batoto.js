@@ -171,7 +171,6 @@ class DefaultExtension extends MProvider {
     }
 
     /**
-     * 
      * @param {String} days_ago 
      */
     getDate(days_ago) {
