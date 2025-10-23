@@ -34,7 +34,7 @@ https://raw.githubusercontent.com/entityJY/mangayomi-extensions-eJ/refs/heads/ma
 
 <!-- anime repo 
 ```
-https://kodjodevf.github.io/mangayomi-extensions/anime_index.json
+https://m2k3a.github.io/mangayomi-extensions/anime_index.json
 ``` -->
 
 novel repo
