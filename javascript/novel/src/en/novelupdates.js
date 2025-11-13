@@ -160,15 +160,13 @@ class DefaultExtension extends MProvider {
       chapterName = chapterName.replace(/\b\w/g, (l) => l.toUpperCase()).trim();
       const chapterUrl = `https:${el.select("a")[1].getHref}`;
       const dateUpload = String(Date.now());
-      chapters.push({
+      chapters.unshift({
         name: chapterName,
         url: chapterUrl,
         dateUpload: dateUpload,
         scanlator: null,
       });
     }
-
-    chapters = chapters.reverse();
 
     return {
       imageUrl,
