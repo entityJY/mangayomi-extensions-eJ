@@ -168,7 +168,7 @@ class DefaultExtension extends MProvider {
       });
     }
 
-    chapters.reverse();
+    chapters = chapters.reverse();
 
     return {
       imageUrl,
