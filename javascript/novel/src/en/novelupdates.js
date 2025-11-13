@@ -7,7 +7,7 @@ const mangayomiSources = [{
     "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/javascript/icon/en.novelupdates.png",
   "typeSource": "single",
   "itemType": 2,
-  "version": "0.0.5",
+  "version": "0.0.4",
   "dateFormat": "",
   "dateFormatLocale": "",
   "pkgPath": "novel/src/en/novelupdates.js",
@@ -160,13 +160,15 @@ class DefaultExtension extends MProvider {
       chapterName = chapterName.replace(/\b\w/g, (l) => l.toUpperCase()).trim();
       const chapterUrl = `https:${el.select("a")[1].getHref}`;
       const dateUpload = String(Date.now());
-      chapters.unshift({
+      chapters.push({
         name: chapterName,
         url: chapterUrl,
         dateUpload: dateUpload,
         scanlator: null,
       });
     }
+
+    chapters.reverse()
 
     return {
       imageUrl,
