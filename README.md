@@ -32,10 +32,11 @@ manga repo
 https://raw.githubusercontent.com/entityJY/mangayomi-extensions-eJ/refs/heads/main/index.json
 ```
 
-<!-- anime repo 
+anime repo
+
+```url
+https:/raw.githubusercontent.com/entityJY/mangayomi-extensions-eJ/refs/heads/main/anime_index.json
 ```
-https://m2k3a.github.io/mangayomi-extensions/anime_index.json
-``` -->
 
 novel repo
 
